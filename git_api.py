@@ -6,7 +6,7 @@ import time
 from fastapi import FastAPI, Form, File, UploadFile # type: ignore
 import asyncio
 from fastapi.responses import HTMLResponse
-token = "github?_pat?_11AUF774Y0tEYjPK91yFns_s2JYf1zM5bpXhHbT0RkuBiPASWT8RcAxxD656fScuN4N5GWOKVZdR9b8Hn3?"
+token = "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"
 token = token.replace("?", "")
 
 
